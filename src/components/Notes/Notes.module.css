@@ -1,0 +1,22 @@
+.sectionContainer {
+  overflow-y: auto;
+  height: 100%;
+}
+
+.panel {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #efefef;
+  margin-bottom: 30px;
+}
+
+.addBlock {
+  position: relative;
+}
+
+.textBlock {
+  width: 200px;
+}

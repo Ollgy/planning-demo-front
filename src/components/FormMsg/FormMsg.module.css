@@ -1,0 +1,9 @@
+.formMsg {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  color: #f44f37;
+  text-align: center;
+}

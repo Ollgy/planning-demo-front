@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChangePswrdForm/> UI component Renders correctly 1`] = `
+<ContextProvider
+  value={null}
+>
+  <ChangePswrdForm
+    clearError={[Function]}
+    fields={
+      Object {
+        "newPassword": "",
+        "oldPassword": "",
+        "rptPassword": "",
+      }
+    }
+    inputForm={[Function]}
+    passwordUpdate={
+      Object {
+        "error": null,
+        "isLoading": false,
+        "user": null,
+      }
+    }
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+    updatePassword={[Function]}
+    validateForm={[Function]}
+    validation={
+      Object {
+        "error": "",
+        "errorInputs": Array [],
+        "msg": "",
+        "status": false,
+      }
+    }
+  />
+</ContextProvider>
+`;
+
+exports[`<PersonalForm/> UI component Renders correctly 1`] = `
+<ContextProvider
+  value={null}
+>
+  <ChangePswrdForm
+    clearError={[Function]}
+    fields={
+      Object {
+        "newPassword": "",
+        "oldPassword": "",
+        "rptPassword": "",
+      }
+    }
+    inputForm={[Function]}
+    passwordUpdate={
+      Object {
+        "error": null,
+        "isLoading": false,
+        "user": null,
+      }
+    }
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+    updatePassword={[Function]}
+    validateForm={[Function]}
+    validation={
+      Object {
+        "error": "",
+        "errorInputs": Array [],
+        "msg": "",
+        "status": false,
+      }
+    }
+  />
+</ContextProvider>
+`;

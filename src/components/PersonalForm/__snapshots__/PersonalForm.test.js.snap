@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PersonalForm/> UI component Renders correctly 1`] = `
+<ContextProvider
+  value={null}
+>
+  <WithData(PersonalForm)
+    clearError={[Function]}
+    dialog={
+      Object {
+        "calendar": false,
+      }
+    }
+    fields={
+      Object {
+        "birthDate": "",
+        "email": "",
+        "firstName": "",
+        "image": "",
+        "lastName": "",
+        "messengers": "",
+        "middleName": "",
+        "phone": "",
+        "position": "",
+      }
+    }
+    getPositions={[Function]}
+    inputForm={[Function]}
+    isLoading={false}
+    mode="read"
+    positions={Array []}
+    saveNewUser={[Function]}
+    saveUserImage={[Function]}
+    setDialog={[Function]}
+    setFields={[Function]}
+    setViewMode={[Function]}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+    updateUser={[Function]}
+    userNew={null}
+    validateForm={[Function]}
+    validation={
+      Object {
+        "error": "",
+        "errorInputs": Array [],
+        "msg": "",
+        "status": false,
+      }
+    }
+  />
+</ContextProvider>
+`;

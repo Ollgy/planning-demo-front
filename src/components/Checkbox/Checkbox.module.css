@@ -1,0 +1,46 @@
+.chb {
+  position: relative;
+  width: 25px;
+}
+
+.chb {
+  display: none;
+}
+
+.chb + label {
+  position: relative;
+  margin-right: 27px;
+  cursor: pointer;
+}
+
+.chb + label:before {
+  content: '';
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  border: 1px solid #bfbfbf;
+  background-color: #fff;
+}
+
+.chb + label:after {
+  content: url('./assets/mark.svg');
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 25px;
+  height: 25px;
+  opacity: 0;
+}
+
+.chb:checked + label:after {
+  opacity: 1;
+}
+
+.wrap {
+  width: 100%;
+}

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dashboard/> UI component Renders correctly 1`] = `
+<ContextProvider
+  value={null}
+>
+  <Dashboard
+    curTaskItem={Object {}}
+    deleteTask={[Function]}
+    dialog={false}
+    getTasks={[Function]}
+    isLoading={false}
+    setCurItem={[Function]}
+    setDialog={[Function]}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+    tasks={Array []}
+    updateTask={[Function]}
+  />
+</ContextProvider>
+`;

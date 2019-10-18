@@ -1,0 +1,67 @@
+.sectionContainer {
+  height: 100%;
+  padding-top: 20px;
+  overflow-y: auto;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #e6e6e6;
+}
+
+.addButtonBlock {
+  position: relative;
+}
+
+.searchBlock,
+.returnBlock {
+  position: relative;
+  margin-right: 20px;
+}
+
+.disabled:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: #e6e6e6;
+  opacity: 0.8;
+}
+
+.returnLink {
+  padding: 10px;
+  color: #707070;
+}
+
+.personalFormWrap {
+  padding-top: 20px;
+}
+
+.dashboardWrap {
+  min-height: 200px;
+}
+
+.enter {
+  opacity: 0.01;
+}
+
+.enter.enterActive {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
+.exit {
+  opacity: 1;
+}
+
+.exit.exitActive {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}

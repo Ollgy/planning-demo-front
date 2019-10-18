@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Notes/> UI component Renders correctly 1`] = `
+<ContextProvider
+  value={null}
+>
+  <Notes
+    animAppear={false}
+    clearAnim={[Function]}
+    clearFields={[Function]}
+    deleteNote={[Function]}
+    fields={
+      Object {
+        "text": "",
+      }
+    }
+    getNotes={[Function]}
+    inputForm={[Function]}
+    isLoading={false}
+    notelist={Array []}
+    saveNewNote={[Function]}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+  />
+</ContextProvider>
+`;

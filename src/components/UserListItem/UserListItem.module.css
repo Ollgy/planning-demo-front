@@ -1,0 +1,44 @@
+.userList {
+  overflow-y: auto;
+}
+
+.userListItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-right: 30px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.userListItem:last-of-type {
+  border-bottom: none;
+}
+
+.infoBlock {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.photoBlock {
+  margin-right: 20px;
+}
+
+.nameBlock {
+}
+
+.buttonWrap {
+  position: relative;
+  margin-right: 15px;
+}
+
+.buttonWrap:last-of-type {
+  margin-right: 0px;
+}
+
+.buttonBlock {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

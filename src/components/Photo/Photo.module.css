@@ -1,0 +1,28 @@
+.photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #e6e6e6;
+  color: #757575;
+  overflow: hidden;
+}
+
+.photoImg {
+  display: inline-block;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.l {
+  width: 200px;
+  height: 200px;
+  font-size: 60px;
+}
+
+.s {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+}

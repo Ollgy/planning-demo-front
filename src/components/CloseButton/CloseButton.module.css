@@ -1,0 +1,44 @@
+.closeButton {
+  position: relative;
+
+  background-color: #f44f37;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+}
+
+.closeButton:before,
+.closeButton:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: 50%;
+  width: 70%;
+  height: 10%;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+.closeButton:before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.closeButton:after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.closeButton:hover {
+  background-color: #bfbfbf;
+}
+
+.m {
+  width: 30px;
+  height: 30px;
+}
+
+.s {
+  width: 20px;
+  height: 20px;
+}

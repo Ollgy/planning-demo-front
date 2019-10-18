@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 45px;
+  border-bottom: 2px solid #efefef;
+  padding: 0 10px 10px;
+}
+
+.headerName {
+  color: #bfbfbf;
+  font-size: 24px;
+  padding-right: 20px;
+}
+
+.exitButton {
+}

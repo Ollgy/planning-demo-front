@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NewTaskForm/> UI component Renders correctly 1`] = `
+<ContextProvider
+  value={null}
+>
+  <NewTaskForm
+    clearError={[Function]}
+    executor={null}
+    fields={
+      Object {
+        "comment": "",
+        "executorId": "",
+        "executorName": "",
+        "task": "",
+      }
+    }
+    getUser={[Function]}
+    inputForm={[Function]}
+    saveNewTask={[Function]}
+    setFields={[Function]}
+    setInitialState={[Function]}
+    setMsgForm={[Function]}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+    validateForm={[Function]}
+    validation={
+      Object {
+        "error": "",
+        "errorInputs": Array [],
+        "msg": "",
+        "status": false,
+      }
+    }
+  />
+</ContextProvider>
+`;

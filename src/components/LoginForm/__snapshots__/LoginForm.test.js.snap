@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LoginForm/> UI component Renders correctly 1`] = `
+<ContextProvider
+  value={null}
+>
+  <LoginForm
+    clearError={[Function]}
+    clearFields={[Function]}
+    error={null}
+    fields={
+      Object {
+        "login": "",
+        "password": "",
+        "remembered": false,
+      }
+    }
+    inputForm={[Function]}
+    isLoading={false}
+    login={[Function]}
+    resetForm={[Function]}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+    toggleChb={[Function]}
+    user={null}
+    validateForm={[Function]}
+    validation={
+      Object {
+        "error": "",
+        "errorInputs": Array [],
+        "msg": "",
+        "status": false,
+      }
+    }
+  />
+</ContextProvider>
+`;

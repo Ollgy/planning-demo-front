@@ -1,0 +1,85 @@
+.taskListItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px 30px 20px 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.taskListItem:last-of-type {
+  border-bottom: none;
+}
+
+.infoBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.taskBlock {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.commentBlock {
+  margin-bottom: 20px;
+  max-width: 500px;
+}
+
+.statusBlock {
+  margin-bottom: 15px;
+}
+
+.status {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #757575;
+  font-weight: 500;
+  background-color: #e6e6e6;
+}
+
+.done {
+  color: #fff;
+  background-color: #707070;
+}
+
+.active {
+  color: #fff;
+  background-color: #f44f37;
+}
+
+.authorBlock {
+  margin-bottom: 5px;
+}
+
+.dateBlock,
+.authorBlock {
+  color: #757575;
+  font-size: 14px;
+}
+
+.dateBlock span {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.dateBlock span:last-of-type {
+  margin-right: 0;
+}
+
+.buttonBlock {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.buttonWrap {
+  position: relative;
+  margin-right: 15px;
+}
+
+.buttonWrap:last-of-type {
+  margin-right: 0px;
+}

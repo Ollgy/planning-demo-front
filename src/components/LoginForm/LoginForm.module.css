@@ -1,0 +1,90 @@
+.formContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.formWrap {
+  position: relative;
+  width: 365px;
+  padding: 45px 35px 25px 35px;
+  border: 2px solid #bfbfbf;
+  border-radius: 15px;
+  box-shadow: 5px 10px 10px 2px #e6e6e6, -5px 0px 10px 2px #e6e6e6;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.formWrap:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 35px;
+  background: linear-gradient(#e6e6e6, #fff);
+}
+
+.form {
+  width: 100%;
+}
+
+.form * {
+  font-size: 16px;
+}
+
+.formItem {
+  display: flex;
+  flex-direction: row-reverse;
+  min-height: 35px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1vh;
+}
+
+.formItem span {
+  flex: 1;
+}
+
+.formItemColumn {
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.formItemColumn > label {
+  margin-bottom: 10px;
+}
+
+.formItemWide {
+  margin-bottom: 20px;
+}
+
+.formItem:last-of-type {
+  margin-bottom: 0;
+}
+
+.formLabel {
+  flex: 1;
+  color: #757575;
+  margin-right: 25px;
+}
+
+.formValue {
+  flex: 1;
+}
+
+.msgBlock {
+  height: 20px;
+}
+
+.buttonContainer {
+  width: 100%;
+  padding-top: 25px;
+  text-align: center;
+}

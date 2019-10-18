@@ -1,0 +1,13 @@
+.sectionContainer {
+  padding-top: 20px;
+  overflow-y: auto;
+}
+
+.subtitle {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.preloaderBlock {
+  height: 250px;
+}

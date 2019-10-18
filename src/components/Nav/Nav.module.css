@@ -1,0 +1,30 @@
+.nav {
+  width: 100%;
+}
+
+.navList {
+  width: 100%;
+}
+
+.navItem {
+  width: 100%;
+}
+
+.navLink {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 40px;
+  color: #757575;
+  text-decoration: none;
+  background-color: transparent;
+  transition: background-color 0.5s;
+}
+
+.navLink:hover {
+  background-color: #e6e6e6;
+}
+
+:global(.active).navLink {
+  color: #fff;
+  background-color: #f44f37;
+}

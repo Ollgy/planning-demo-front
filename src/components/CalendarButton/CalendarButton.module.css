@@ -1,0 +1,88 @@
+.calendarBtnContainer {
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.calendarButton {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.calendarButton:hover > img {
+  top: -25px;
+}
+
+.calendarIcon {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 20px;
+  height: 45px;
+}
+
+.calendarBlock {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.calendarContainer {
+  position: absolute;
+  top: -8px;
+  right: -38px;
+  width: 300px;
+  height: 274px;
+  border: 2px solid #bfbfbf;
+  border-radius: 15px;
+  background-color: #fff;
+  transform: translateY(-100%) scale(0.9);
+  box-shadow: 5px 10px 10px 2px #e6e6e6, -5px 0px 10px 2px #e6e6e6;
+  z-index: 1;
+}
+
+.calendarContainer:after {
+  content: '';
+  position: absolute;
+  right: 25px;
+  bottom: -1px;
+  width: 20px;
+  height: 20px;
+  transform: translateY(50%) rotate(45deg);
+  transform-origin: 50%;
+  background-color: inherit;
+  border-right: 2px solid #bfbfbf;
+  border-bottom: 2px solid #bfbfbf;
+  z-index: -1;
+}
+
+.appear {
+  display: none;
+}
+
+.enter {
+  display: block;
+  top: 0;
+  opacity: 0.01;
+}
+
+.enter.enterActive {
+  opacity: 1;
+  top: -8px;
+  transition: opacity 300ms, top 300ms ease-in;
+}
+
+.exit {
+  opacity: 1;
+}
+
+.exit.exitActive {
+  opacity: 0.01;
+  transition: opacity 300ms;
+}

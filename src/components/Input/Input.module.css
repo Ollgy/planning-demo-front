@@ -1,0 +1,72 @@
+.inputWrap {
+  position: relative;
+  display: inline-block;
+  width: 190px;
+}
+
+.input {
+  height: 35px;
+  width: 100%;
+  padding: 4px 20px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+  outline: none;
+  resize: none;
+}
+
+.input:focus {
+  border-color: #707070;
+}
+
+input:read-only {
+  color: #bfbfbf;
+}
+
+.phone > input {
+  padding-left: 45px;
+}
+
+.phone:before {
+  content: '+7';
+  position: absolute;
+  top: 50%;
+  transform: translateY(calc(-50% + 1px));
+  left: 20px;
+  color: #707070;
+}
+
+.birthDate > input {
+  color: #707070 !important;
+  padding-right: 45px;
+}
+
+.search {
+  width: 230px;
+}
+
+.search > .input {
+  padding-right: 45px;
+}
+
+.search:before {
+  content: url('./assets/searchIcon.svg');
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.error,
+error:focus {
+  border-color: #f44f37 !important;
+}
+
+.empty + label:after {
+  content: '*';
+  color: #f44f37;
+  padding-left: 3px;
+}

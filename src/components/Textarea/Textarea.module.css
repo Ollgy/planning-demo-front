@@ -1,0 +1,41 @@
+.textareaWrap {
+  position: relative;
+  display: inline-block;
+}
+
+.big {
+  width: 100%;
+}
+
+.big > textarea {
+  height: 100px;
+  width: 100%;
+}
+
+.textarea {
+  height: 55px;
+  width: 190px;
+  padding: 4px 20px;
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #bfbfbf;
+  border-radius: 5px;
+  outline: none;
+  resize: none;
+  overflow: auto;
+}
+
+.textarea:focus {
+  border-color: #707070;
+}
+
+.error,
+error:focus {
+  border-color: #f44f37 !important;
+}
+
+.empty + label:after {
+  content: '*';
+  color: #f44f37;
+  padding-left: 3px;
+}

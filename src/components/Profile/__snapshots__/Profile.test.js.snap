@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Profile/> UI component Renders correctly 1`] = `
+<ContextProvider
+  value={null}
+>
+  <Profile
+    hidePswrdBlock={[Function]}
+    pswrdBlockOpen={false}
+    showPswrdBlock={[Function]}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+  />
+</ContextProvider>
+`;

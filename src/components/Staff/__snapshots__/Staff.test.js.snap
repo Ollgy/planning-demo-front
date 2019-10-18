@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Staff/> UI component Renders correctly 1`] = `
+<ContextProvider
+  value={null}
+>
+  <Staff
+    curStaffItem={Object {}}
+    deleteUser={[Function]}
+    dialog={
+      Object {
+        "newTaskWindow": Object {
+          "status": false,
+        },
+        "popup": Object {
+          "msg": "",
+          "status": false,
+          "userAnswer": false,
+        },
+      }
+    }
+    getFilterUsers={[Function]}
+    getUsers={[Function]}
+    inputFilter={[Function]}
+    isLoading={false}
+    personalFormMode="read"
+    setCurItem={[Function]}
+    setDialog={[Function]}
+    setInitialState={[Function]}
+    setViewMode={[Function]}
+    staff={Array []}
+    store={
+      Object {
+        "dispatch": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+        Symbol(observable): [Function],
+      }
+    }
+    view={
+      Object {
+        "mode": "read",
+        "name": "userlist",
+      }
+    }
+  />
+</ContextProvider>
+`;
